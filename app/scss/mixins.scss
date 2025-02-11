@@ -1,0 +1,10 @@
+@mixin text-styles($size, $weight, $title: false) {
+    font-size: $size; 
+    font-weight: $weight;
+    @if title == true {
+        line-height: 1.2;
+    }
+    @else {
+        line-height: 1.4;
+    } 
+}
